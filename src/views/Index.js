@@ -20,6 +20,7 @@ import CodeOfConduct from "./sections/CodeOfConduct.js";
 import Explore from "./sections/Explore.js";
 import ContactUs from "./sections/ContactUs.js";
 import MatricSpot from "./sections/MatricSpot.js";
+import OfferCarouselSection from "./index-sections/OfferCarousel.js";
 
 
 function Index() {
@@ -43,12 +44,14 @@ function Index() {
           <Home/>
           <CodeOfConduct/>
           <Explore/>
-          <Carousel />
+          <OfferCarouselSection/>
           <Admissions/>
-          <MatricSpot/>
+          <Carousel />
+
+          {/* <MatricSpot/> */}
           <ContactUs/>
         </div>
-        <DarkFooter />
+        {/* <DarkFooter /> */}
       </div>
     </>
   );
