@@ -45,13 +45,18 @@ function IndexNavbar() {
         />
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} expand="lg" style={{color: "#fff", backgroundColor: "#a9a9a9"}}>
-        <Container>
+        <Container style={{margin: "0px 25px"}}>
           <div className="navbar-translate">
             <NavbarBrand
 
             >
-              {/* //3b853b */}
+              <div className="team-player" style={{fontSize:'18px'}}>
+                    <img
+                      alt="logo"
+                      src={require("assets/img/trans_logo.png")}
+                      style={{maxHeight:'100px'}}></img> 
               Oval North High School
+              </div>
             </NavbarBrand>
           
           </div>
@@ -60,7 +65,7 @@ function IndexNavbar() {
             isOpen={collapseOpen}
             navbar
           >
-            <Nav navbar>
+            <Nav navbar className="navbar-right">
               <NavItem>
                 <NavLink
                   href="#pablo"
@@ -117,7 +122,7 @@ function IndexNavbar() {
                   <p>Admissions</p>
                 </NavLink>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLink
                   href="#pablo"
                   onClick={(e) => {
@@ -130,7 +135,7 @@ function IndexNavbar() {
                 <i className="now-ui-icons education_glasses"></i>
                   <p>Matric Spot</p>
                 </NavLink>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLink
                   href="#pablo"
