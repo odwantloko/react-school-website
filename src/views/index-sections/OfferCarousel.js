@@ -13,34 +13,40 @@ import {
 // core components
 
 const items = [
+ 
   {
-    src: require("assets/img/sport1.jpg"),
-    altText: "Soccer Team",
-    caption: "Soccer Team",
+    src: require("assets/img/offer3.jpg"),
+    altText: "Electrical Technology Board",
+    caption: "Electrical Technology Board",
   },
   {
-    src: require("assets/img/sport2.jpg"),
-    altText: "Soccer Team",
-    caption: "Soccer Team",
+    src: require("assets/img/offer2.jpg"),
+    altText: "Mechanical Technology Learners",
+    caption: "Mechanical Technology Learners",
   },
   {
-    src: require("assets/img/sport3.jpg"),
-    altText: "Cycling Team",
-    caption: "Cycling Team",
+    src: require("assets/img/offer8.jpg"),
+    altText: "Biology",
+    caption: "Biology",
   },
   {
-    src: require("assets/img/sport4.jpg"),
-    altText: "Table Tennis Team",
-    caption: "Table Tennis Team",
+    src: require("assets/img/offer1.jpg"),
+    altText: "Computer Labs",
+    caption: "Computer Labs",
   },
   {
-    src: require("assets/img/sport5.jpg"),
-    altText: " Chess Team",
-    caption: "Chess Team",
+    src: require("assets/img/offer7.jpg"),
+    altText: "Mechanical Technology Student",
+    caption: "Mechanical Technology Student",
+  },
+  {
+    src: require("assets/img/offer6.jpg"),
+    altText: "Civil Technology Learner",
+    caption: "Civil Technology Learner",
   },
 ];
 
-function CarouselSection() {
+function OfferCarouselSection() {
   const [activeIndex, setActiveIndex] = React.useState(0);
   const [animating, setAnimating] = React.useState(false);
   const onExiting = () => {
@@ -67,9 +73,6 @@ function CarouselSection() {
     <>
       <div className="section" id="carousel" style={gallery}>
         <Container>
-          <div className="title">
-            <h4 style={{textAlign: 'center', paddingBottom: '20px'}}><b>Our Sports Gallery</b></h4>
-          </div>
           <Row className="justify-content-center">
             <Col lg="8" md="12">
               <Carousel
@@ -129,7 +132,7 @@ function CarouselSection() {
   );
 }
 
-export default CarouselSection;
+export default OfferCarouselSection;
 
 const gallery = {
   backgroundColor: '#797979',
