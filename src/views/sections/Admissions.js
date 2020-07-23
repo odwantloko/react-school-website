@@ -16,12 +16,9 @@ function Admissions() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">Do you love this Bootstrap 4 UI Kit?</h3>
+              <h3 className="title">Admissions</h3>
               <h5 className="description">
-                Cause if you do, it can be yours for FREE. Hit the button below
-                to navigate to Creative Tim or Invision where you can find the
-                kit in HTML or Sketch/PSD format. Start a new project or give an
-                old Bootstrap project a new look!
+                [insert admissions process, requirements, what parents need to bring with]
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">
@@ -36,3 +33,5 @@ function Admissions() {
 }
 
 export default Admissions;
+
+

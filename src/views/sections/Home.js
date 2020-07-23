@@ -17,12 +17,9 @@ function Home() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">Do you love this Bootstrap 4 UI Kit?</h3>
-              <h5 className="description">
-                Cause if you do, it can be yours for FREE. Hit the button below
-                to navigate to Creative Tim or Invision where you can find the
-                kit in HTML or Sketch/PSD format. Start a new project or give an
-                old Bootstrap project a new look!
+              <h3 className="title">Welcome to Oval North High School's Website</h3>
+              <h5 className="description" style={{color: '#fff'}}>
+                [Insert intro paragraph, e.g. Year school was founded, school values/beliefs etc.]
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">
