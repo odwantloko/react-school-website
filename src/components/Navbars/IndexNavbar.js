@@ -50,13 +50,29 @@ function IndexNavbar() {
             <NavbarBrand
 
             >
-              <div className="team-player" style={{fontSize:'18px'}}>
-                    <img
-                      alt="logo"
-                      src={require("assets/img/trans_logo.png")}
-                      style={{maxHeight:'100px'}}></img> 
+              <div className="oval_header">
+               
+                <img
+                  alt="logo"
+                  src={require("assets/img/trans_logo.png")}></img> 
               Oval North High School
+               {/* Menu */}
+               <button
+                className="navbar-toggler navbar-toggler"
+                onClick={() => {
+                  document.documentElement.classList.toggle("nav-open");
+                  setCollapseOpen(!collapseOpen);
+                }}
+                aria-expanded={collapseOpen}
+                type="button"
+                style={{marginLeft:'25px'}}
+              >
+                <span className="navbar-toggler-bar top-bar"></span>
+                <span className="navbar-toggler-bar top-bar"></span>
+                <span className="navbar-toggler-bar bottom-bar"></span>
+              </button>
               </div>
+              
             </NavbarBrand>
           
           </div>
@@ -122,20 +138,7 @@ function IndexNavbar() {
                   <p>Admissions</p>
                 </NavLink>
               </NavItem>
-              {/* <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    document
-                      .getElementById("matric-spot-section")
-                      .scrollIntoView();
-                  }}
-                >                  
-                <i className="now-ui-icons education_glasses"></i>
-                  <p>Matric Spot</p>
-                </NavLink>
-              </NavItem> */}
+ 
               <NavItem>
                 <NavLink
                   href="#pablo"
@@ -154,6 +157,8 @@ function IndexNavbar() {
   
             </Nav>
           </Collapse>
+
+          
         </Container>
       </Navbar>
     </>

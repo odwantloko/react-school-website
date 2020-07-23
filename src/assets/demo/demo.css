@@ -61,6 +61,65 @@
   margin-right: 20px;
 }
 
+.oval_header {
+  font-size: 17px;
+
+}
+
+.oval_header img {
+  max-height: 4.5rem;
+
+}
+
+.carousel-item img {
+  min-height: 30rem!important;
+  max-height:30rem!important;
+  min-width:100%!important;
+
+}
+
+.mapStyles {
+  width: 65%!important;
+  height: 20rem!important;
+  position: relative
+
+}
+
+@media (max-width: 768px) {
+  .oval_header {
+    font-size: 12px;
+    
+  }
+
+  .page-header {
+    min-height: 50vh!important;
+    height: 52vh!important;
+
+  }
+
+  .oval_header img{
+    max-height: 3rem;
+
+  }
+
+  .carousel-item img {
+    min-height: 15rem!important;
+    max-height:15rem!important;
+    min-width:100%!important;
+  
+  }
+
+  .mapStyles {
+    width: 80%!important;
+    height: 13rem!important;
+  
+  }
+  
+ 
+}
+
+
+
 #navbar-full .navbar {
   border-radius: 0 !important;
   margin-bottom: 15px;
@@ -412,7 +471,7 @@
 }
 
 .section-download {
-  padding-top: 130px;
+  padding-top: 60px;
 }
 
 .section-download .description {
