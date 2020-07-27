@@ -12,11 +12,11 @@ function CodeOfConductDetails() {
     <>
       <div
         className="section section-download"
-        data-background-color="White"
+        data-background-color="black"
         id="code-of-conduct-section"
       >
         <Breadcrumb>
-            <BreadcrumbItem><Link to="/">Back to Home</Link></BreadcrumbItem>
+            <BreadcrumbItem><Link to="/"><u>Back to Home</u></Link></BreadcrumbItem>
             <BreadcrumbItem active>Our Code of Conduct</BreadcrumbItem>
         </Breadcrumb> 
           <Row className="justify-content-md-center">
@@ -48,8 +48,12 @@ function CodeOfConductDetails() {
                 <li>Do not get involved in any form of gambling.</li>
               </ol>
 
-              <Link to="/code-of-conduct"> Global Stats Table</Link>
-
+              <div>
+                  
+              <img
+              alt="logo"
+              src={require("assets/img/logo.png")}></img> 
+              </div>
             </Col>
            
           </Row>

@@ -1,10 +1,6 @@
 import React , {Component} from "react";
-
-// reactstrap components
-import {  Container, Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
+import {  Row, Col, Breadcrumb, BreadcrumbItem } from "reactstrap";
 import { Link } from "react-router-dom";
-
-// core components
 
 class ExploreDetails extends Component {
 
@@ -14,14 +10,15 @@ class ExploreDetails extends Component {
         <div
           className="section section-download"
           id="explore-section"
-          style={green}
-        >
+          style={green}>
+
+        <Breadcrumb>
+            <BreadcrumbItem><Link to="/"><u>Back to Home</u></Link></BreadcrumbItem>
+            <BreadcrumbItem active>Our Code of Conduct</BreadcrumbItem>
+        </Breadcrumb> 
             <Row className="justify-content-md-center">
               <Col className="text-center" lg="8" md="12">
-              <Breadcrumb>
-                <BreadcrumbItem><Link to="/">Back to Home</Link></BreadcrumbItem>
-                <BreadcrumbItem active>Our Code of Conduct</BreadcrumbItem>
-            </Breadcrumb> 
+            
                 <h3 className="title">What we can offer you</h3>
                   <h4><b>Academic</b></h4>
                     <h5 style={text}>We offer the following subjects to choose from:</h5>   
