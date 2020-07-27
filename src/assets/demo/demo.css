@@ -71,6 +71,10 @@
 
 }
 
+a{
+  color: #ffffff!important;
+}
+
 .carousel-item img {
   min-height: 30rem!important;
   max-height:30rem!important;

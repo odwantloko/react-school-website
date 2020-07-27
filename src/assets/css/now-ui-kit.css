@@ -2506,9 +2506,9 @@ small {
   font-size: 60%; }
 
 a {
-  color: #f96332; }
+  color: #fff; }
   a:hover, a:focus {
-    color: #f96332; }
+    color: #fff; }
 
 h1, .h1 {
   font-size: 3.5em;
